@@ -1,6 +1,9 @@
 # Laravel / PHP Backend Interview Questions
 
-Part of **[Galhoom Path](https://github.com/galhoom-path)** · Track 3 — Interview Prep.
+> 🛤️ **Part of [Galhoom Path](https://github.com/galhoom-path)** · Track 3 — Interview Prep  
+> This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep**).  
+> It is a standalone **interview answer bank** — not the lecture-mapped questions inside Study repos.  
+> → [Organization home](https://github.com/galhoom-path)
 
 An **interview answer bank**: real technical questions from interviews I sat, with the answers I would give. Not a course, and not a scraped question dump from the internet. Each question is its own file.
 
