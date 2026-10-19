@@ -2,7 +2,7 @@
 
 This is an **interview answer bank**, not a course and not a scraped question dump. Every item is a question the owner was actually asked. Answers are English. Examples target **PHP 8.5** and **Laravel 13**.
 
-Lives under the **[Galhoom Path](https://github.com/galhoom-path)** org as **Track 3 — Interview Prep**. Do not reshape it into a Study-track repo (`01-Lectures` / `02-Interview-Questions` / `03-Final-Project`). Study-repo interview folders are a different product.
+Lives under the **[Galhoom Path](https://github.com/galhoom-path)** org as **Track 3 — Interview Prep** (org has four tracks: Study · Problem Solving · Interview Prep · Projects). Do not reshape it into a Study-track repo (`01-Lectures` / `02-Interview-Questions` / `03-Final-Project`). Study-repo interview folders are a different product.
 
 Keep the Galhoom Path affiliation block near the top of `README.md` (Part of Galhoom Path · Track 3 · link to the org home).
 
