@@ -4,6 +4,8 @@ This is an **interview answer bank**, not a course and not a scraped question du
 
 Lives under the **[Galhoom Path](https://github.com/galhoom-path)** org as **Track 3 — Interview Prep**. Do not reshape it into a Study-track repo (`01-Lectures` / `02-Interview-Questions` / `03-Final-Project`). Study-repo interview folders are a different product.
 
+Keep the Galhoom Path affiliation block near the top of `README.md` (Part of Galhoom Path · Track 3 · link to the org home).
+
 Root is `README.md` (humans) + `topics/` + this file. Do not add LICENSE, CONTRIBUTING, homework, study cards, PLAN/phases, a full Laravel app, or extra questions to “fill” a topic.
 
 ## Do not
