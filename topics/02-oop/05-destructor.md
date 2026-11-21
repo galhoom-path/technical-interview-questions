@@ -1,6 +1,6 @@
 # What is a Destructor in PHP, and what is its purpose?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 

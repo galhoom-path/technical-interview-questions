@@ -2,7 +2,7 @@
 
 > Laravel examples target **Laravel 13**. Official docs: [https://laravel.com/framework/docs](https://laravel.com/framework/docs)
 >
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 

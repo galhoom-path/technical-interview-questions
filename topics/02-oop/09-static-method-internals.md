@@ -1,6 +1,6 @@
 # A static method does not require an object instance to run. How is this managed internally?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 

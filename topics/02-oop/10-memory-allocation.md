@@ -1,6 +1,6 @@
 # What is the difference in memory (RAM) allocation between instantiating an object and calling a static method?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 

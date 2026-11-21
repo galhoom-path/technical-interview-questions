@@ -1,6 +1,6 @@
 # What is the difference between an Abstract Class and an Interface?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 
@@ -101,7 +101,7 @@ class InvoicePdf extends Report implements Downloadable
 
 **Learn more:**
 - [Object Inheritance](https://www.php.net/manual/en/language.oop5.inheritance.php) — why you get only one parent class
-- [PHP 8.5 new features](https://www.php.net/manual/en/migration85.new-features.php) — current language; interface property hooks (8.4+) still apply
+- [PHP 8.6 new features](https://www.php.net/manual/en/migration86.new-features.php) — current language; interface property hooks (8.4+) still apply
 - [Traits](https://www.php.net/manual/en/language.oop5.traits.php) — a third option when you want reuse without an abstract parent
 
 ---

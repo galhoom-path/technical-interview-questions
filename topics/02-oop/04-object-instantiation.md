@@ -1,6 +1,6 @@
 # How do you instantiate an object from a class? Explain the step-by-step process of how the object is built and what handles its creation.
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 

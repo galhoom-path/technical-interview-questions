@@ -1,6 +1,6 @@
 # Agent notes
 
-This is an **interview answer bank**, not a course and not a scraped question dump. Every item is a question the owner was actually asked. Answers are English. Examples target **PHP 8.5** and **Laravel 13**.
+This is an **interview answer bank**, not a course and not a scraped question dump. Every item is a question the owner was actually asked. Answers are English. Examples target **PHP 8.6** and **Laravel 13**.
 
 Lives under the **[Galhoom Path](https://github.com/galhoom-path)** org as **Track 3 — Interview Prep** (org has four tracks: Study · Problem Solving · Interview Prep · Projects). Do not reshape it into a Study-track repo (`01-Lectures` / `02-Interview-Questions` / `03-Final-Project`). Study-repo interview folders are a different product.
 
@@ -32,7 +32,7 @@ Same-topic files are also study order. Keep Previous / Next / Topic footers corr
 ## Question file shape
 
 1. `#` question (exact interview wording)
-2. Version banner (PHP 8.5 and/or Laravel 13) with official docs link
+2. Version banner (PHP 8.6 and/or Laravel 13) with official docs link
 3. `**Answer:**` short definition (tables OK)
 4. `### 🔑 Key terms` — Term | Plain meaning, 3–6 rows; reuse wording across sibling files
 5. `### 🧠 Analogy` — 3–5 lines

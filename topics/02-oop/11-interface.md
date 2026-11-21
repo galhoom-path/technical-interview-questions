@@ -1,6 +1,6 @@
 # What is an Interface, and why is it used?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 
@@ -88,7 +88,7 @@ In Laravel this is the Service Container pattern: bind `Mailer::class` to `SmtpM
 **Learn more:**
 - [Laravel: Service Container](https://laravel.com/docs/13.x/container) — binding an interface to a class (the pattern used in real Laravel apps)
 - [Class Abstraction](https://www.php.net/manual/en/language.oop5.abstract.php) — when a partial implementation is a better fit than a pure interface
-- [PHP 8.5 new features](https://www.php.net/manual/en/migration85.new-features.php) — current syntax (`|>`, `clone()`, `#[\Override]` on properties). Property hooks on interfaces shipped in 8.4 and remain in 8.5.
+- [PHP 8.6 new features](https://www.php.net/manual/en/migration86.new-features.php) — current syntax (`|>`, `clone()`, `#[\Override]` on properties). Property hooks on interfaces shipped in 8.4 and remain in 8.5.
 
 ---
 

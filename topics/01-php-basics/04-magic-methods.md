@@ -1,6 +1,6 @@
 # What are Magic Methods in PHP, and when should they be used?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 
@@ -31,7 +31,7 @@ Magic methods are automatic doors: they open when you walk up (`echo $obj`, `new
 | `__call()` / `__callStatic()` | Calling an inaccessible instance / static method |
 | `__toString()` | The object is used as a string |
 | `__invoke()` | The object is called like a function `$obj()` |
-| `__clone()` | The object is cloned (`clone $obj`, or PHP 8.5 `clone($obj, [...])`) |
+| `__clone()` | The object is cloned (`clone $obj`, or PHP 8.6 `clone($obj, [...])`) |
 | `__serialize()` / `__unserialize()` | `serialize()` / `unserialize()` (`__sleep` / `__wakeup` are soft-deprecated in PHP 8.5) |
 | `__debugInfo()` | The object is dumped with `var_dump()` |
 
@@ -84,7 +84,7 @@ $discounted = (new Money(1999, 'USD'))->withCents(1499);
 - `__construct` — to put the object in a valid state when you use `new` (named factories are also valid).
 - `__toString` / `__invoke` — when the object has a natural string or callable form.
 - `__serialize` — when you persist or queue the object.
-- `__clone` / PHP 8.5 `clone($object, $withProperties)` — wither pattern for `readonly` classes.
+- `__clone` / PHP 8.6 `clone($object, $withProperties)` — wither pattern for `readonly` classes.
 
 **When not to use them:**
 
@@ -97,7 +97,7 @@ $discounted = (new Money(1999, 'USD'))->withCents(1499);
 > Do not replace a real public API with `__get` / `__set` / `__call` — typos become “features”, static analysis goes blind. Do not send mail or capture payment from `__destruct`.
 
 > [!NOTE]
-> - PHP 8.5 `clone($object, [...])`? Wither-style copy for `readonly` classes.
+> - PHP 8.6 `clone($object, [...])`? Wither-style copy for `readonly` classes.
 > - `__sleep` / `__wakeup`? Soft-deprecated in 8.5; use `__serialize` / `__unserialize`.
 
 ---
@@ -110,8 +110,8 @@ $discounted = (new Money(1999, 'USD'))->withCents(1499);
 **Learn more:**
 - [Constructors and Destructors](https://www.php.net/manual/en/language.oop5.decon.php) — `__construct` / `__destruct` in full
 - [Overloading](https://www.php.net/manual/en/language.oop5.overloading.php) — `__get`, `__set`, `__call`, `__callStatic` (and why they hide bugs)
-- [PHP 8.5 new features](https://www.php.net/manual/en/migration85.new-features.php) — `clone($object, [...])` wither pattern
-- [PHP 8.5 deprecated features](https://www.php.net/manual/en/migration85.deprecated.php) — `__sleep()` / `__wakeup()` are soft-deprecated; use `__serialize()` / `__unserialize()`
+- [PHP 8.6 new features](https://www.php.net/manual/en/migration86.new-features.php) — `clone($object, [...])` wither pattern
+- [PHP 8.6 deprecated features](https://www.php.net/manual/en/migration85.deprecated.php) — `__sleep()` / `__wakeup()` are soft-deprecated; use `__serialize()` / `__unserialize()`
 
 ---
 

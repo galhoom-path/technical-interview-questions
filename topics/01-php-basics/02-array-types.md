@@ -1,6 +1,6 @@
 # What are the different types of arrays in PHP?
 
-> PHP examples use **PHP 8.5** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+> PHP examples use **PHP 8.6** syntax. Official manual: [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
 
 **Answer:**
 
@@ -73,8 +73,8 @@ You can mix numeric and string keys in the same array. Internally PHP still stor
 - For a list of models/DTOs I use a **list** (indexed). For a record of named fields I use **associative**.
 - Nested arrays get messy fast. After one or two levels I switch to objects / DTOs / collections.
 - PHP 8.1+ `array_is_list()` tells you whether keys are `0..n-1` with no gaps.
-- PHP 8.5 `array_first()` / `array_last()` return the first or last value (or `null` if empty).
-- PHP 8.5 pipe operator `|>` is useful for transforming values without nested calls.
+- PHP 8.6 `array_first()` / `array_last()` return the first or last value (or `null` if empty).
+- PHP 8.6 pipe operator `|>` is useful for transforming values without nested calls.
 
 ---
 
@@ -83,7 +83,7 @@ You can mix numeric and string keys in the same array. Internally PHP still stor
 
 > [!NOTE]
 > - How do you detect a list? `array_is_list()` (PHP 8.1+).
-> - `array_first` / `array_last`? PHP 8.5 value helpers (older: `array_key_first` / `array_key_last`).
+> - `array_first` / `array_last`? PHP 8.6 value helpers (older: `array_key_first` / `array_key_last`).
 
 ---
 
@@ -94,9 +94,11 @@ You can mix numeric and string keys in the same array. Internally PHP still stor
 
 **Learn more:**
 - [`array_is_list()`](https://www.php.net/manual/en/function.array-is-list.php) — detect a packed `0..n-1` list vs a map
-- [`array_first()`](https://www.php.net/manual/en/function.array-first.php) / [`array_last()`](https://www.php.net/manual/en/function.array-last.php) — PHP 8.5 helpers
+- [`array_first()`](https://www.php.net/manual/en/function.array-first.php) / [`array_last()`](https://www.php.net/manual/en/function.array-last.php) — PHP 8.5+ value helpers
 - [`array_key_first()`](https://www.php.net/manual/en/function.array-key-first.php) / [`array_key_last()`](https://www.php.net/manual/en/function.array-key-last.php) — PHP 7.3+ key helpers; 8.5 adds value helpers `array_first()` / `array_last()`
-- [PHP 8.5 new features](https://www.php.net/manual/en/migration85.new-features.php) — pipe operator `|>` and more
+- [`clamp()`](https://www.php.net/manual/en/function.clamp.php) — PHP 8.6 bounds helper
+- [PHP 8.6 new features](https://www.php.net/manual/en/migration86.new-features.php) — `clamp()`, partial application, `Time\Duration`, stream exceptions
+- [PHP 8.5 new features](https://www.php.net/manual/en/migration85.new-features.php) — pipe `|>`, `array_first()` / `array_last()`, `clone()` with properties
 
 ---
 
